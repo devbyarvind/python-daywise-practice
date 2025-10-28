@@ -1,4 +1,4 @@
-# Write a Python program to take two numbers as input from the user and print their sum.
+# (1) Write a Python program to take two numbers as input from the user and print their sum.
 # (Remember: input() takes value as string. Convert to int before adding.)
 
 a = input("Enter a First Value: ")
@@ -7,7 +7,7 @@ c = int(a) + int(b)
 print(c)
 
 
-# Take input from the user and print the type of the value entered.
+# (2) Take input from the user and print the type of the value entered.
 # Hint: Use type() function.
 
 """eval() is powerful but can be dangerous if someone enters malicious Python code.
@@ -24,7 +24,7 @@ from ast import literal_eval
 a = literal_eval(input("Enter the Value: "))
 print(type(a))
 
-# Write a Python program to calculate the area of a rectangle.
+# (3) Write a Python program to calculate the area of a rectangle.
 
 width = float(input("Enter a Base: "))
 length = float(input("Enter a height: "))
@@ -32,7 +32,7 @@ area = 1/2*width*length
 print(area)
 
 
-#Take two values from the user and swap them using a third variable, then print the values before and after swapping.
+# (4) Take two values from the user and swap them using a third variable, then print the values before and after swapping.
 
 swap_one = input("Enter a First Value: ")
 swap_two = input("Enter a Second Value: ")
@@ -44,7 +44,7 @@ swap_two = swap_three
 
 print(f"After Swapping the Result is {swap_one,swap_two}")
 
-# Simple SI Calculated
+# (5) Simple SI Calculated
 
 principal = float(input("Enter a Principal value : "))
 Rate = float(input("Enter a Rate value : "))
@@ -54,7 +54,7 @@ SI = (principal * Rate * time ) / 100
 
 print(f"The Simple Interest is {SI} Thank You ")
 
-#Take a float number as input and convert it into integer, then print both values.
+# (6) Take a float number as input and convert it into integer, then print both values.
 
 a = float(input('Enter a Value: '))
 print(f"The Result is Before conversion {a}")
