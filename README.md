@@ -1,7 +1,7 @@
 # 🐍 Python Daily Practice Programs
 
 Welcome to my **Python Learning Journey Repository**!  
-This repository contains my daily practice programs written while learning Python fundamentals — covering **variables, data types, typecasting, arithmetic operations, and logical concepts**.
+This repository contains my daily practice programs written while learning Python fundamentals — covering **variables, data types, typecasting, arithmetic operations, conditional statements, and logical operators**.
 
 ---
 
@@ -28,7 +28,7 @@ These programs focus on input/output, typecasting, simple arithmetic, and using 
 
 ## 📅 Day 2 – Extended Practice
 
-These programs expand on arithmetic, logical operators, loops, and dynamic inputs.
+These programs expand on arithmetic, loops, and dynamic inputs.
 
 | No. | Program Title | Concept Covered |
 |:--:|:-----------------------------|:-----------------------------|
@@ -47,14 +47,28 @@ These programs expand on arithmetic, logical operators, loops, and dynamic input
 
 ---
 
+## 📅 Day 3 – Comparison & Logical Operators
+
+These programs focus on **decision-making** using comparison and logical operators (`and`, `or`, `not`) along with `if-elif-else` statements.
+
+| No. | Program Title | Concept Covered |
+|:--:|:-----------------------------|:-----------------------------|
+| 1 | Compare Two Numbers | Comparison operators: `>`, `<`, `==` |
+| 2 | Check Voting Eligibility | `>=`, `<` with condition-based logic |
+| 3 | Find Largest Among Three Numbers | Multiple condition checks with `and` |
+| 4 | Check Number Between 10 and 50 | Range checking using `and` |
+| 5 | Simple Login System | String comparison and logical `and` |
+
+---
+
 ## 🧠 What I Learned
 - ✅ Using `input()` and understanding string inputs  
 - ✅ Typecasting between `str`, `int`, `float`, and `bool`  
 - ✅ Using arithmetic, floor division (`//`), and modulus (`%`)  
-- ✅ Conditional evaluation (`if`, `else`)  
-- ✅ Working with user input dynamically using loops  
-- ✅ Understanding truthy/falsy values  
-- ✅ Using membership operators (`in`, `not in`)  
+- ✅ Conditional evaluation (`if`, `elif`, `else`)  
+- ✅ Combining conditions using logical operators (`and`, `or`, `not`)  
+- ✅ Checking value ranges and simple validation logic  
+- ✅ Understanding truthy/falsy values and membership checks  
 
 ---
 
