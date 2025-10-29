@@ -1,3 +1,4 @@
+
 # (1) Compare Two Numbers
 # Take two numbers as input from the user and print which one is greater, or if they are equal.
 
@@ -62,13 +63,50 @@ if username =="admin" and user_pass =="12345":
 else:
     print("Access Denied")
 
+# (6) Grade system (90+ = A, 80+ = B, etc.)
 
+student_marks= float(input("Enter a Your Marks Between 0-100: "))
 
+if student_marks >= 90:
+    print("Grade A")
+elif student_marks >=80:
+    print("Grade B")
+elif student_marks >=70:
+    print("Grade C")
+elif student_marks >=60:
+    print("Grade D")
+else:
+    print("You are Fail")
 
+# (7) Find the largest of four numbers
+first_num =int(input("Enter You First Number: "))
+second_num =int(input("Enter You Second Number: "))
+third_num =int(input("Enter You Third Number: "))
+fourth_num =int(input("Enter You Fourth Number: "))
 
+if first_num > second_num and first_num>third_num and first_num>fourth_num:
+    print(f"The First is Largest Number: {first_num}")
+elif second_num>first_num and second_num>third_num and second_num>fourth_num:
+    print(f"The Second is Largest Number: {second_num}")
+elif third_num>first_num and third_num>second_num and third_num>fourth_num:
+    print(f"The Third is Largest Number:  {third_num}")
+elif fourth_num>first_num and fourth_num>second_num and fourth_num>third_num:
+    print(f"The Fourth is Largest Number:{fourth_num}")
+elif first_num==second_num==third_num==fourth_num:
+    print("All Are Equal Number")
+else:
+    print("There are two or more numbers that are equal and largest.")
 
+# (8) Check if a Number is Positive (and within Range 1–100), Zero, or Negative
+check_num = int(input("Enter a Number: "))
 
+if check_num >= 1 and check_num <=100:
+    print("it is positive")
+elif check_num == 0:
+    print("The Number is 0 ")
 
+else:
+    print("Number is in Minus")
 
 
 

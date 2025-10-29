@@ -52,13 +52,15 @@ These programs expand on arithmetic, loops, and dynamic inputs.
 These programs focus on **decision-making** using comparison and logical operators (`and`, `or`, `not`) along with `if-elif-else` statements.
 
 | No. | Program Title | Concept Covered |
-|:--:|:-----------------------------|:-----------------------------|
-| 1 | Compare Two Numbers | Comparison operators: `>`, `<`, `==` |
-| 2 | Check Voting Eligibility | `>=`, `<` with condition-based logic |
-| 3 | Find Largest Among Three Numbers | Multiple condition checks with `and` |
-| 4 | Check Number Between 10 and 50 | Range checking using `and` |
-| 5 | Simple Login System | String comparison and logical `and` |
-
+|:---:|:-----------------------------|:-----------------------------|
+|  1  | Compare Two Numbers | Comparison operators: `>`, `<`, `==` |
+|  2  | Check Voting Eligibility | `>=`, `<` with condition-based logic |
+|  3  | Find Largest Among Three Numbers | Multiple condition checks with `and` |
+|  4  | Check Number Between 10 and 50 | Range checking using `and` |
+|  5  | Simple Login System | String comparison and logical `and` |
+|  6  | Grade system (90+ = A, 80+ = B, etc.)|
+|  7  | Find the largest of four numbers|
+|  8  | Check if a Number is Positive (and within Range 1–100), Zero, or Negative |
 ---
 
 ## 🧠 What I Learned
