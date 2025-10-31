@@ -53,14 +53,14 @@ These programs focus on **decision-making** using comparison and logical operato
 
 | No. | Program Title | Concept Covered |
 |:---:|:-----------------------------|:-----------------------------|
-|  1  | Compare Two Numbers | Comparison operators: `>`, `<`, `==` |
-|  2  | Check Voting Eligibility | `>=`, `<` with condition-based logic |
-|  3  | Find Largest Among Three Numbers | Multiple condition checks with `and` |
-|  4  | Check Number Between 10 and 50 | Range checking using `and` |
-|  5  | Simple Login System | String comparison and logical `and` |
-|  6  | Grade system (90+ = A, 80+ = B, etc.)|
-|  7  | Find the largest of four numbers|
-|  8  | Check if a Number is Positive (and within Range 1–100), Zero, or Negative |
+| 1 | Compare Two Numbers | Comparison operators: `>`, `<`, `==` |
+| 2 | Check Voting Eligibility | `>=`, `<` with condition-based logic |
+| 3 | Find Largest Among Three Numbers | Multiple condition checks with `and` |
+| 4 | Check Number Between 10 and 50 | Range checking using `and` |
+| 5 | Simple Login System | String comparison and logical `and` |
+| 6 | Grade System (90+ = A, 80+ = B, etc.) | Nested if-elif conditions |
+| 7 | Find the Largest of Four Numbers | Multi-condition comparison |
+| 8 | Check if a Number is Positive (and within Range 1–100), Zero, or Negative | Chained conditions |
 
 ---
 
@@ -70,13 +70,32 @@ These programs demonstrate how logical operators combine multiple conditions and
 
 | No. | Program Title | Concept Covered |
 |:--:|:-----------------------------|:-----------------------------|
-| 1 | Check if a number is less than 10 or greater than 50 | Use of `or` |
-| 2 | Check if a character entered by the user is not a vowel | Use of `not in` |
-| 3 | Check if a person’s entered city is not “Delhi” or “Mumbai” | Logical `not` with list membership |
-| 4 | Check if a student failed in any subject (marks < 33 in any of 3 subjects) | Use of `or` |
-| 5 | Check if a number is not divisible by 3 or not divisible by 5 | Logical `not` with modulus |
-| 6 | Check if a user’s entered password is empty or too short (less than 6 characters) | Combination of `or` and `len()` |
-| 7 | Check if an entered day is not Saturday or Sunday | Use of `.lower()` with `not in` |
+| 1 | Check if a Number is Less Than 10 or Greater Than 50 | Use of `or` |
+| 2 | Check if a Character Entered by the User is Not a Vowel | Use of `not in` |
+| 3 | Check if a Person’s Entered City is Not “Delhi” or “Mumbai” | Logical `not` with list membership |
+| 4 | Check if a Student Failed in Any Subject (marks < 33 in any of 3 subjects) | Use of `or` |
+| 5 | Check if a Number is Not Divisible by 3 or Not Divisible by 5 | Logical `not` with modulus |
+| 6 | Check if a User’s Entered Password is Empty or Too Short (less than 6 characters) | Combination of `or` and `len()` |
+| 7 | Check if an Entered Day is Not Saturday or Sunday | Use of `.lower()` with `not in` |
+
+---
+
+## 📅 Day 5 – Conditional Practice (Advanced Logical & Validation Programs)
+
+These programs combine logical, comparison, and string operators to perform real-world validation and eligibility checks.
+
+| No. | Program Title | Concept Covered |
+|:--:|:-----------------------------|:-----------------------------|
+| 1 | Employee Eligibility Check | `and` with multiple numeric conditions |
+| 2 | Discount Eligibility Based on Purchase | `or` condition with user input |
+| 3 | Student Grade Validation | Comparison, arithmetic, and `or` |
+| 4 | Wi-Fi Connection Check | Nested `if` with string logic |
+| 5 | Login Validation | Combination of `and`, `or`, `not` |
+| 6 | Check if a Number is a Two-Digit Even Number | Range checking with `and` and modulus |
+| 7 | Validate Email Input | String operations: `in`, `not`, `or`, `len()` |
+| 8 | Temperature Safety Check | Sequential `if-elif` range validation |
+| 9 | Mobile Plan Availability | List membership with `not in` and `or` |
+| 10 | Secure Password Validation | String validation with `len()`, `in`, and conditional branching |
 
 ---
 
@@ -88,6 +107,7 @@ These programs demonstrate how logical operators combine multiple conditions and
 - ✅ Combining conditions using logical operators (`and`, `or`, `not`)  
 - ✅ Checking value ranges and simple validation logic  
 - ✅ Understanding truthy/falsy values and membership checks  
+- ✅ Handling string validation (email, password, and text conditions)
 
 ---
 
