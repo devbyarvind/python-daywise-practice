@@ -61,6 +61,23 @@ These programs focus on **decision-making** using comparison and logical operato
 |  6  | Grade system (90+ = A, 80+ = B, etc.)|
 |  7  | Find the largest of four numbers|
 |  8  | Check if a Number is Positive (and within Range 1–100), Zero, or Negative |
+
+---
+
+## 📅 Day 4 – Logical Operators (`and`, `or`, `not`)
+
+These programs demonstrate how logical operators combine multiple conditions and help make complex decisions.
+
+| No. | Program Title | Concept Covered |
+|:--:|:-----------------------------|:-----------------------------|
+| 1 | Check if a number is less than 10 or greater than 50 | Use of `or` |
+| 2 | Check if a character entered by the user is not a vowel | Use of `not in` |
+| 3 | Check if a person’s entered city is not “Delhi” or “Mumbai” | Logical `not` with list membership |
+| 4 | Check if a student failed in any subject (marks < 33 in any of 3 subjects) | Use of `or` |
+| 5 | Check if a number is not divisible by 3 or not divisible by 5 | Logical `not` with modulus |
+| 6 | Check if a user’s entered password is empty or too short (less than 6 characters) | Combination of `or` and `len()` |
+| 7 | Check if an entered day is not Saturday or Sunday | Use of `.lower()` with `not in` |
+
 ---
 
 ## 🧠 What I Learned
